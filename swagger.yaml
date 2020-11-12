@@ -18,6 +18,8 @@ paths:
   /questions:
     x-summary: Questions Collection
     get:
+      description: >-
+        You get the list of all questions if using this action.
       summary: List All Questions
       responses:
         200:
@@ -74,6 +76,8 @@ paths:
   /questions/{questionId}:
     x-summary: Question Data
     get:
+      description: >-
+        You get the details of a specific question if using this action.
       summary: Get Question Data
       parameters:
         - in: path
@@ -104,6 +108,8 @@ paths:
                   - choice: Ruby
                     votes: 256
     delete:
+      description: >-
+        Use this action to delete a question.
       summary: Delete a Question
       parameters:
         - in: path
