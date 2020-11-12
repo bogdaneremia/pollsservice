@@ -117,7 +117,7 @@ paths:
           required: true
           type: integer
           minimum: 1
-          description: Question Id
+          description: Question Idupdate
       responses:
         201:
           description: Delete action accepted
